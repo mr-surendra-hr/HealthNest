@@ -1,4 +1,4 @@
-/*
+/* 
  * VANIE (Virtual Assistant for Nursing & Health Information & Education)
  * Complete AI Chat System - Merged Backend and Test Functionality
  * This single file contains the entire VANIE AI response system
@@ -8,7 +8,7 @@
 class VANIEAlgorithm {
     constructor() {
         this.name = "VANIE - Virtual Assistant for Nursing & Health Information & Education";
-        this.version = "2.0";
+        this.version = "2.0"; 
         
         // Priority-based response categories
         this.responseEngine = {
@@ -21,7 +21,7 @@ class VANIEAlgorithm {
                     'heavy bleeding', 'poison', 'overdose', 'swallowed chemicals'
                 ],
                 handler: this.handleEmergency.bind(this)
-            },
+            }, 
             
             // Level 2: App Navigation
             navigation: {
